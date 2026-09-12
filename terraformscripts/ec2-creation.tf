@@ -4,10 +4,10 @@ region = "ap-south-1"
 }
 
 resource "aws_instance" "AWSINSTANCE"{
-ami = "ami-0b910d1016287a5e7"
+ami = "ami-08188a5a4dfdbd573"
 instance_type = "t3.micro"
-key_name = "devopsmay2026"
-security_groups = ["launch-wizard-4"]
+key_name = "devopsravi2026"
+security_groups = ["launch-wizard-1"]
 tags = {
 Name = "terraformserver"
 }
